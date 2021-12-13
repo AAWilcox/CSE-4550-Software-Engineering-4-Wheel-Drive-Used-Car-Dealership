@@ -13,6 +13,7 @@ This repository is meant to hold all content relevant to the 4-Wheel Drive Used 
 - Session: CSUSB Fall 2020
 
 <h2>Development Team</h2>
+
 - Project Manager: Alyssa Wilcox
 - Assistant Project Manager: Wen Zhang
 - Software Engineer: Jorge Valencia
