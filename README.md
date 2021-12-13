@@ -33,6 +33,7 @@ This repository is meant to hold all course assignments for CSE 405. In addition
 Completed
 
 <h2>Possible Future Additions</h2>
+
 - Reorganize the code for greater efficiency.
 - Implement the web application on all browsers, not just Google Chrome.
 - Change object sizing from pixels to percentages to allow for scalability.
