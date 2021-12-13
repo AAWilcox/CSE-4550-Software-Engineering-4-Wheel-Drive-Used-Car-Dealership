@@ -1,0 +1,108 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Tab -->
+        <title>Inventory</title>
+        <link rel="icon" href="images/logo.png" type="image/png">
+        <!-- Style Sheets -->
+        <link rel = "stylesheet" href = "inventory.css">
+		<!-- update the version number as needed -->
+        <!-- include only the Firebase features as you need -->
+        <script defer src="/__/firebase/7.21.0/firebase-app.js"></script>
+        <script defer src="/__/firebase/7.21.0/firebase-auth.js"></script>
+        <script defer src="/__/firebase/7.21.0/firebase-firestore.js"></script>
+        <script defer src="/__/firebase/7.21.0/firebase-storage.js"></script>
+        <!-- initialize the SDK after all desired features are loaded -->
+        <script defer src="/__/firebase/init.js"></script>
+        <!-- Javascript sources-->
+        <script defer src="auth.js"></script>
+        <script defer src="inventory.js"></script>
+        <script defer src="search.js"></script>
+        <script defer src="filterFullInventory.js"></script>
+        <script defer src="filterSearchResults.js"></script>
+        <script defer src="resetSearch.js"></script>
+    </head>
+
+    <body>
+        <header id = "top">
+            <header id = "mainHeader">
+                <div class = "container">
+                    <a href = "index.html">
+                        <img src = "images/logo.png">
+                    </a>
+                    <h1>4-Wheel Drive Used Car Dealership</h1>
+                </div>
+            </header>
+    
+            <nav id = "navBar">
+                <div class = "container">
+                    <ul>
+                        <li><a href = "aboutUs.html">About Us</a></li>
+                        <div class = "clr"></div>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <section id = "search">
+            <div class = "container">
+                <form id = "searchBar">
+                    <input type = "text" placeholder = "Enter a key word" id="search_input">
+                    <button type = "submit" id = "search_submit">Search</button>
+                    <div class = "dropdown">
+                        <button class="dropbtn" disabled>Filter By:</button>
+                        <div class = "dropdown-content">
+                            <option value="Year" id="filter_yearA">Year - Ascending</option>
+                            <option value="Year" id="filter_yearD">Year - Descending</option>
+                            <option value="Price-A" id="filter_priceA">Price - Ascending</option>
+                            <option value="Price-D" id="filter_priceD">Price - Descending</option>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <br>
+        <br>
+
+        <div class = "container">
+            <div class = "carGrid">
+            </div>
+        </div>
+        <br>
+
+        <footer id = "mainFooter">
+            <div class = "container">
+                <div class = "block">
+                    <h2>4 Wheel Drive Used Car Dealership</h2>
+                    <h4>4550 Project Ave San Bernardino, CA 92407</h4>
+                </div>
+                <div class = "block">
+                    <h2>Hours</h2>
+                    <table id = "hours">
+                        <tbody>
+                            <tr>
+                                <td>Monday - Friday:</td>
+                                <td>10:00am - 5:00pm</td>
+                            </tr>
+                            <tr>
+                                <td>Saturday:</td>
+                                <td>10:00am - 3:00pm</td>
+                            </tr>
+                            <tr>
+                                <td>Sunday:</td>
+                                <td>12:00pm - 3:00pm</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class = "block">
+                    <h2>Contact Us</h2>
+                    <h3>4WheelDrive@gmail.com</h3>
+                    <h3>(909) 786-2389</h3>
+                </div>
+                <div class = "clr"></div>
+            </div>
+        </footer>
+    </body>
+</html>

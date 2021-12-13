@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Tab -->
+        <title>Login</title>
+        <link rel="icon" href="images/logo.png" type="image/png">
+        <!-- Style Sheets -->
+        <link rel = "stylesheet" href = "login.css">
+        <!-- update the version number as needed -->
+        <!-- include only the Firebase features as you need -->
+        <script defer src="/__/firebase/7.21.0/firebase-app.js"></script>
+        <script defer src="/__/firebase/7.21.0/firebase-auth.js"></script>
+        <script defer src="/__/firebase/7.21.0/firebase-firestore.js"></script>
+        <script defer src="/__/firebase/7.21.0/firebase-storage.js"></script>
+        <!-- initialize the SDK after all desired features are loaded -->
+        <script defer src="/__/firebase/init.js"></script>
+        <!-- Javascript sources-->
+		<script defer src="login.js"></script>
+    </head>
+    
+    <body id = "loginAccount" class = "login">
+        <section id = "loginField">
+            <a href = "index.html">
+                <img src = "images/logo.png" class = "logo">
+            </a>
+            <h1>Login</h1>
+            <form>
+                <p>Email</p>
+                <input type="email" id="l_email" placeholder="Enter Email">
+                <p>Password</p>
+                <input type="password" id="l_password" placeholder="Enter Password">
+                <br><br>
+                <button type="submit" id="login_btn">Login</button>
+                <br><br>
+                <h4><a href="requestPSchange.html">Lost your password?</a></h4>
+                <h4><a href="createAccount.html">Don't have an account?</a></h4>               
+            </form>
+            <br><br>
+            <div class = "message"></div>
+			<div class = "success_message"></div>
+        </section>
+    </body>
+</html>

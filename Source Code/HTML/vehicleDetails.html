@@ -1,0 +1,115 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Tab -->
+        <title>Vehicle Details</title>
+        <link rel="icon" href="images/logo.png" type="image/png">
+        <!-- Style Sheets -->
+        <link rel = "stylesheet" href = "vehicleDetails.css">
+        <!-- update the version number as needed -->
+        <!-- include only the Firebase features as you need -->
+        <script defer src="/__/firebase/7.21.0/firebase-app.js"></script>
+        <script defer src="/__/firebase/7.21.0/firebase-auth.js"></script>
+        <script defer src="/__/firebase/7.21.0/firebase-firestore.js"></script>
+        <script defer src="/__/firebase/7.21.0/firebase-storage.js"></script>
+        <!-- initialize the SDK after all desired features are loaded -->
+        <script defer src="/__/firebase/init.js"></script>
+        <!-- Javascript sources-->
+        <script defer src="auth.js"></script>
+        <script defer src="vehicleDetails.js"></script>
+        <script defer src="addToFavorites.js"></script>
+        <script defer src="deleteVehicle.js"></script>
+        <script defer src="specialDeals.js"></script>
+    </head>
+
+    <body>
+        <header id = "top">
+            <header id = "mainHeader">
+                <div class = "container">
+                    <a href = "index.html">
+                        <img src = "images/logo.png">
+                    </a>
+                    <h1>4-Wheel Drive Used Car Dealership</h1>
+                </div>
+            </header>
+    
+            <nav id = "navBar">
+                <div class = "container">
+                    <ul>
+                        <li><a href = "aboutUs.html">About Us</a></li>
+                        <div class = "clr"></div>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <div class="buffer"></div>
+
+        <div class="container">
+            <h1><a href="inventory.html">←Back to Inventory</a></h1>
+        </div>
+
+        <div class="carDetailBackground">
+            <div class = "carDetailGrid">
+                <div class = "carTitle" id="title"></div>
+                <img id="img">
+                <div class="category">Year:</div>
+                <div class="data" id="year"></div>
+                <div class="category">Engine:</div>
+                <div class="data" id="engine"></div>
+                <div class="category">Make:</div>
+                <div class="data" id="make"></div>
+                <div class="category">Drive:</div>
+                <div class="data" id="drive"></div>
+                <div class="category">Model:</div>
+                <div class="data" id="model"></div>
+                <div class="category">Trans:</div>
+                <div class="data" id="trans"></div>
+                <div class="category">Mileage:</div>
+                <div class="data" id="mileage"></div>
+                <div class="category">Color:</div>
+                <div class="data" id="color"></div>
+                <div class="price" id="price"></div>
+            </div>
+        </div>
+        <br>
+        <div class="vehicleOptions">
+        </div>
+        <br>
+
+        <footer id = "mainFooter">
+            <div class = "container">
+                <div class = "block">
+                    <h2>4 Wheel Drive Used Car Dealership</h2>
+                    <h4>4550 Project Ave San Bernardino, CA 92407</h4>
+                </div>
+                <div class = "block">
+                    <h2>Hours</h2>
+                    <table id = "hours">
+                        <tbody>
+                            <tr>
+                                <td>Monday - Friday:</td>
+                                <td>10:00am - 5:00pm</td>
+                            </tr>
+                            <tr>
+                                <td>Saturday:</td>
+                                <td>10:00am - 3:00pm</td>
+                            </tr>
+                            <tr>
+                                <td>Sunday:</td>
+                                <td>12:00pm - 3:00pm</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class = "block">
+                    <h2>Contact Us</h2>
+                    <h3>4WheelDrive@gmail.com</h3>
+                    <h3>(909) 786-2389</h3>
+                </div>
+                <div class = "clr"></div>
+            </div>
+        </footer>
+    </body>
+</html>

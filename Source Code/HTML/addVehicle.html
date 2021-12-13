@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Tab -->
+        <title>Add Vehicle</title>
+        <link rel="icon" href="images/logo.png" type="image/png">
+        <!-- Style Sheets -->
+        <link rel = "stylesheet" href = "addVehicle.css">
+        <!-- Update the version number as needed -->
+        <!-- Include only the Firebase features as you need -->
+        <script defer src="/__/firebase/7.21.0/firebase-app.js"></script>
+        <script defer src="/__/firebase/7.21.0/firebase-auth.js"></script>
+        <script defer src="/__/firebase/7.21.0/firebase-firestore.js"></script>
+        <script defer src="/__/firebase/7.21.0/firebase-storage.js"></script>
+        <!-- Initialize the SDK after all desired features are loaded -->
+        <script defer src="/__/firebase/init.js"></script>
+        <!-- Javascript sources-->
+        <script defer src="auth.js"></script>
+        <script defer src="addVehicle.js"></script>
+    </head>
+
+    <body>
+        <header id = "top">
+            <header id = "mainHeader">
+                <div class = "container">
+                    <a href = "index.html">
+                        <img src = "images/logo.png">
+                    </a>
+                    <h1>4-Wheel Drive Used Car Dealership</h1>
+                </div>
+            </header>
+    
+            <nav id = "navBar">
+                <div class = "container">
+                    <ul>
+                        <li><a href = "aboutUs.html">About Us</a></li>
+                        <div class = "clr"></div>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <div class="buffer"></div>
+
+        <section class="container">
+            <p>* = Required Field</p>
+            <form id="addVehicle">
+                <p class="title">Year*</p><p class="exp">(Exp: 2015)</p>
+                <input type="text" id="v_year">
+                <p class="title">Make*</p><p class="exp">(Exp: Kia)</p>
+                <input type="text" id="v_make">
+                <p class="title">Model*</p><p class="exp">(Exp: Soul)</p>
+                <input type="text" id="v_model">
+                <p class="title">Mileage*</p><p class="exp">(Exp: 60,000)</p>
+                <input type="text" id="v_mileage">
+                <p class="title">Engine</p><p class="exp">(Exp: 1.6L 4-Cylinder)</p>
+                <input type="text" id="v_engine">
+                <p class="title">Drive</p><p class="exp">(Exp: FWD)</p>
+                <input type="text" id="v_drive">
+                <p class="title">Transmission</p><p class="exp">(Exp: Automatic)</p>
+                <input type="text" id="v_trans">
+                <p class="title">Color*</p><p class="exp">(Exp: White)</p>
+                <input type="text" id="v_color">
+                <p class="title">Price*</p><p class="exp">(Exp: 11500 NO COMMA)</p>
+                <input type="text" id="v_price">
+                <p class="title">Image</p>
+                <input type="file" id="v_img">
+                <button type="submit" id="v_add">Add Vehicle</button>
+            </form>
+            <div class = "success_message"></div>
+        </section>
+
+        <div class = "msg"></div>
+
+        <br><br><br>
+    </body>
+</html>
