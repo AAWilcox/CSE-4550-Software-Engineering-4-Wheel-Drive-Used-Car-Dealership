@@ -1,4 +1,3 @@
-# CSE-4550-Software-Engineering
 <h1 align="center">4-Wheel Drive Used Car Dealership</h1>
 <p align="center"><strong>Remote GitHub Repository for CSE 4550 Software Engineering Term Project</strong>
 <br>By Alyssa Wilcox</p>
