@@ -1,11 +1,10 @@
 # CSE-4550-Software-Engineering
-Repository for CSE 4550 and the term project 4-WheelDrive Used Car Dealership
 <h1 align="center">4-Wheel Drive Used Car Dealership</h1>
 <p align="center"><strong>Remote GitHub Repository for CSE 4550 Software Engineering Term Project</strong>
 <br>By Alyssa Wilcox</p>
 <br/>
 <h2>About</h2>
-This repository is meant to hold all course assignments for CSE 405. In addition to course assignments, crash courses for HTML5, CSS3, and JavaScript are included as resources and references for future projects.
+This repository is meant to hold all content relevant to the 4-Wheel Drive Used Care Dealership web application.
 
 <h2>Course Information</h2>
 
