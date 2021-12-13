@@ -1,0 +1,135 @@
+body{
+    background-color: #E1E1E1;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	line-height: 1.6em;
+	margin: 0;
+}
+
+.createAccount{
+    background-image: url("images/background2.jpg");
+    background-position: center;
+    overflow: hidden;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+}
+
+#createField{
+    width: 420px;
+    height: 500px;
+    background: #333;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius: 5px;
+}
+
+#createField h1{
+    margin: 0;
+    padding: 0 0 30px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+#createField p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+#createField input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#createField input[type="text"], input[type="password"], input[type="email"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+#createField button{
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 100%;
+    background: coral;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+}
+
+#createField button:hover{
+    background-color: #DB5D42;
+    cursor: pointer;
+}
+
+#createField h4{
+    margin: 0;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#createField a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: white;
+}
+
+#createField a:hover{
+    color: coral;
+}
+
+.error {
+	background: orangered;
+	color: #fff;
+	padding: 5px;
+    margin: 5px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.success {
+	background: #3AE627;
+	color: #fff;
+	padding: 5px;
+    margin : 5px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0px 1000px #333 inset;
+    box-shadow: 0 0 0px 1000px #333 inset;
+}
+
+input:-webkit-autofill:first-line,
+cursor:-webkit-autofill {
+    color: white;
+}

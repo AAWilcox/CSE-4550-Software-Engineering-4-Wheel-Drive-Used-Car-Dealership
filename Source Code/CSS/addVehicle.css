@@ -1,0 +1,194 @@
+.buffer{
+    padding-top: 180px;
+}
+
+body{
+    background-color: #E1E1E1;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	line-height: 1.6em;
+	margin: 0;
+}
+
+#top{
+    width: 100%;
+    position: fixed;
+}
+
+.container{
+    width: 95%;
+	margin: auto;
+    overflow: hidden;
+}
+
+#mainHeader{
+    background-color: coral;
+    color: #fff;
+}
+
+#mainHeader img{
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+#mainHeader h1{
+    top: 15px;
+    position: relative;
+    float: left;
+    margin-left: 10px;
+}
+
+#secHeader{
+    background-color: #333;
+    color: #fff;
+}
+
+#secHeader h1{
+    text-align: center;
+}
+
+#navbar{
+    background-color: #333;
+    color: #fff;
+}
+
+#navbar ul{
+	padding: 0;
+	list-style: none;
+}
+
+#navbar li{
+    float: right;
+    padding-right: 15px;  
+}
+
+#navbar a{
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+	padding-right: 15px;
+}
+
+#navbar a:hover{
+    color: #E16146;
+    cursor: pointer;
+}
+
+#LogOut a:hover{
+    cursor: pointer;
+}
+
+.clr{
+    clear:both;
+}
+
+.title{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    float: left;
+}
+
+.exp {
+    margin: 0;
+    padding: 0;
+    padding-left: 8px;
+    float: left;
+    font-weight: normal;
+    color: rgb(138, 138, 138);
+}
+
+#addVehicle input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+    box-shadow: 0 0 0px 1000px white inset;
+}
+
+#addVehicle input[type="text"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+}
+
+#addVehicle input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: coral;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    display: block;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#addVehicle input[type="submit"]:hover{
+    background-color: #DB5D42;
+    cursor: pointer;
+}
+
+#addVehicle button{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: coral;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    display: block;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#addVehicle button:hover{
+    background-color: #DB5D42;
+    cursor: pointer;
+}
+
+.error p{
+	background: orangered;
+	color: #fff;
+	padding: 5px;
+    margin: 5px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.msg {
+    margin: auto;
+    width: 20%;
+}
+
+#smsg{
+	background: #3AE627;
+	color: #fff;
+	padding: 5px;
+    margin : 5px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#fmsg{
+    background: orangered;
+	color: #fff;
+	padding: 5px;
+    margin : 5px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+}

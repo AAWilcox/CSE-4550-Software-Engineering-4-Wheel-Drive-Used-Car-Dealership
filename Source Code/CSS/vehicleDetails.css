@@ -1,0 +1,189 @@
+.buffer{
+    padding-top: 180px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    color: #E16146;
+}
+
+
+.carDetailBackground{
+    width: 95%;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.carDetailGrid{
+    display: grid;
+    display: "none";
+    grid-template-columns: min-content auto auto auto auto;
+    padding: 10px;
+    grid-gap: 0px;
+}
+
+.carTitle{
+    grid-column: 1/6;
+}
+
+.carDetailGrid img{
+    grid-row: 2 / 6;
+    width: 500px;
+    height: 350px;
+    object-fit: cover;
+}
+
+div.carTitle{
+    text-align: center;
+    font-size: 30px;
+    background-color: coral;
+    padding: 1px;
+    font-weight: bold;
+}
+
+.category{
+    margin: auto;
+    font-weight: bold;
+}
+
+.data{
+    margin: auto;
+    text-align: center;
+}
+
+.price{
+    grid-column: 1/6;
+    font-weight: bold;
+    background-color: #333;
+    color: white;
+    font-size: 25px;
+    margin: 0px;
+    padding: 5px;
+    text-align: center;
+}
+
+.carDetailGrid div{
+    padding: 10px 0;
+    font-size: 30px;
+}
+
+.vehicleOptions {
+    margin-left: 2.5%;
+}
+
+.vehicleOptions button{
+    background-color: coral;
+    border: none;
+    color: white;
+    font-size: 25px;
+    padding: 16px 32px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.vehicleOptions button:hover{
+    cursor: pointer;
+    background-color: #DB5D42;
+}
+
+body{
+    background-color: #E1E1E1;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	line-height: 1.6em;
+	margin: 0;
+}
+
+#top{
+    width: 100%;
+    position: fixed;
+}
+
+.container{
+    width: 95%;
+	margin: auto;
+    overflow: hidden;
+}
+
+#mainHeader{
+    background-color: coral;
+    color: #fff;
+}
+
+#mainHeader img{
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+#mainHeader h1{
+    top: 15px;
+    position: relative;
+    float: left;
+    margin-left: 10px;
+}
+
+#secHeader{
+    background-color: #333;
+    color: #fff;
+}
+
+#secHeader h1{
+    text-align: center;
+}
+
+
+#navbar{
+    background-color: #333;
+    color: #fff;
+}
+
+#navbar ul{
+	padding: 0;
+	list-style: none;
+}
+
+#navbar li{
+    float: right;
+    padding-right: 15px;  
+}
+
+#navbar a{
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+	padding-right: 15px;
+}
+
+#navbar a:hover{
+    color: #E16146;
+}
+
+.clr{
+    clear:both;
+}
+
+#mainFooter{
+    background: #333;
+    color: #fff;
+    margin-top: 40px;
+}
+
+.block{
+    float: left;
+    width: 33%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#hours{
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+}

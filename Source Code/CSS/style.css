@@ -1,0 +1,310 @@
+body{
+    background-color: #E1E1E1;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	line-height: 1.6em;
+	margin: 0;
+}
+
+#top{
+    width: 100%;
+    position: fixed;
+}
+
+.container{
+    width: 95%;
+	margin: auto;
+    overflow: hidden;
+}
+
+#mainHeader{
+    background-color: coral;
+    color: #fff;
+}
+
+#mainHeader img{
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+#mainHeader h1{
+    top: 15px;
+    position: relative;
+    float: left;
+    margin-left: 10px;
+}
+
+#secHeader{
+    background-color: #333;
+    color: #fff;
+}
+
+#secHeader h1{
+    text-align: center;
+}
+
+#navbar{
+    background-color: #333;
+    color: #fff;
+}
+
+#navbar ul{
+	padding: 0;
+	list-style: none;
+}
+
+#navbar li{
+    float: right;
+    padding-right: 15px;  
+}
+
+#navbar a{
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+	padding-right: 15px;
+}
+
+#navbar a:hover{
+    color: #E16146;
+}
+
+.clr{
+    clear:both;
+}
+
+.buffer {
+    padding-top: 200px;
+}
+
+#searchField{
+    padding-top:200px;
+    background-image: url("images/background1.jpg");
+    background-position: center;
+    text-align: center;
+    min-height: 500px;
+    animation: slide 20s infinite;
+}
+
+@keyframes slide{
+    0%{
+        background-image: url("images/background1.jpg");
+    }
+    33%{
+        background-image: url("images/background2.jpg")
+    }
+    67%{
+        background-image: url("images/background3.jpg");
+    }
+}
+
+#searchBar{
+    text-align: center;
+    padding-top: 200px;
+}
+
+#searchBar input{
+    width: 60%;
+    padding: 16px;
+    border: none;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+    box-shadow: 0 0 0px 1000px white inset;
+}
+
+#searchBar button{
+    background-color: coral;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    font-weight: bold;
+}
+
+#searchBar button:hover{
+    background-color: #DB5D42;
+    cursor: pointer;
+}
+
+#secHeader button{
+    background-color: #333;
+    color: white;
+    border: none;
+    display: block;
+    width: 100%;
+    padding: 35px 28px;
+    font-size: 30px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+}
+
+#secHeader button:hover{
+    color: #E16146;  
+}
+
+#secHeader a{
+	text-decoration: none;
+}
+
+#secHeader a:hover{
+    color: #E16146;
+}
+
+#welcome{  
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#welcome h1{
+    font-size: 30px;
+    color: #E16146;
+}
+
+#welcome p{
+    font-size: 20px;
+    color: #333;
+}
+
+.carGrid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 5px;
+    padding-bottom: 20px;
+    grid-gap: 40px;
+    justify-content: center;
+}
+
+.CarTitle{
+    text-align: center;
+    font-size: 30px;
+    background-color: coral;
+    padding: 1px;
+    font-weight: bold;
+    height: 80px;
+}
+
+.CarTitle p{
+    margin-top: 20px;
+}
+
+.gridItem{
+    padding: 20px;
+    width: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 420px;
+}
+
+.gridItem:hover{
+    cursor: pointer;
+}
+
+.gridItem a{
+    text-decoration: none;
+    color: black;
+}
+
+.gridItem img{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.price{
+    text-align: center;
+    font-weight: bold;
+    background-color: #333;
+    color: white;
+    font-size: 25px;
+    margin: 0px;
+    padding: 5px;
+}
+
+#carShowcase{
+    border-collapse: collapse;
+    border-spacing: 0;
+    background-color: #FFDED2;
+    margin: auto;
+    width: 70%;
+    min-width: 500px;
+}
+
+th:first-child {
+    border-radius: 6px 6px 0 0;
+}
+
+#carShowcase>tbody>tr>:nth-child(2){
+    padding-left: 25px;
+    padding-right:50px;
+    font-weight: bold;
+}
+
+#carShowcase>tbody>tr>:nth-child(3){
+    padding-right:50px;
+}
+
+#carShowcase>tbody>tr>:nth-child(4){
+    padding-right: 50px;
+    font-weight: bold;
+}
+
+#carShowcase>tbody>tr>:nth-child(5){
+    padding-right: 50px;
+}
+
+#carShowcase img{
+    width: 400px;
+}
+
+#carShowcase th{
+    text-align: left;
+    font-size: 30px;
+    background-color: coral;
+    padding: 10px;
+}
+
+#carShowcase td{
+    font-size: 20px;
+}
+
+#price{
+    background-color: #D1CBC9;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-weight: bold;
+}
+
+.block{
+    float: left;
+    width: 33%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#mainFooter{
+    background: #333;
+    color: #fff;
+    margin-top: 40px;
+}
+
+#hours{
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#aboutUs{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 300px;
+}
